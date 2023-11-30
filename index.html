@@ -5,6 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Outfit", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="bg-sky-100 h-screen w-screen flex justify-center items-center">
+      <div
+        class="bg-white w-10/12 h-3/4 rounded-xl p-4 xl:flex xl:flex-col xl:w-1/4 xl:h-4/6"
+      >
+        <div>
+          <img
+            src="images/image-qr-code.png"
+            alt="QR Code"
+            class="rounded-xl"
+          />
+        </div>
+        <div>
+          <h2 class="text-center text-xl font-bold mt-5 mb-4 xl:mt-8">
+            Improve your front-end skills by building projects
+          </h2>
+          <p class="text-base text-center text-slate-500">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
